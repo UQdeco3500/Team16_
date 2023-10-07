@@ -1,7 +1,9 @@
 # Team 16
 ---
 ## Prototype
+
 The prototype folder contains the draft design of the prototype, the interaction lines of the prototype, and so on.
+
 ---
 ## Stand Up 1
 
