@@ -1,6 +1,6 @@
 # Team 16
 ---
-##Stand Up 1
+## Stand Up 1
 
 [Connect to our non-functional prototype](https://app.uizard.io/p/7863fefd)
 
