@@ -1,5 +1,8 @@
 # Team 16
 ---
+## Prototype
+The prototype folder contains the draft design of the prototype, the interaction lines of the prototype, and so on.
+---
 ## Stand Up 1
 
 [Connect to our non-functional prototype](https://app.uizard.io/p/7863fefd)
