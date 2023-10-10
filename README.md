@@ -45,6 +45,8 @@ The prototype folder contains the draft design of the prototype, the interaction
 
 [Team16_DesignProposal.pdf](Team16_DesignProposal.pdf)
 
+[example.txt](folder/example.txt)
+
 
 
 
