@@ -26,7 +26,7 @@ Concerning the literature, we will organize a literature review workshop, ensuri
 
 Through these enhancements, we hope to lay a solid foundation for the success of the project, ensuring that the expectations and requirements of all stakeholders are met.
 
-
+[Team16_DesignProposal.pdf](Team16_DesignProposal.pdf)
 
 ## Prototype
 
@@ -48,7 +48,7 @@ The prototype folder contains the draft design of the prototype, the interaction
 [Cultural Investigation and Target Users](Stand%20up%201/Cultural%20Investigation%20and%20Target%20Users.pdf)
 
 
-[Team16_DesignProposal.pdf](Team16_DesignProposal.pdf)
+
 
 
 
