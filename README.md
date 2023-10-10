@@ -35,7 +35,7 @@ The prototype folder contains the draft design of the prototype, the interaction
 ---
 ## Stand Up 1
 
-[Connect to our non-functional prototype](https://app.uizard.io/p/7863fefd)
+[Connect to our non-functional prototype.pdf](Connect to our non-functional prototype.pdf)
 
 [Multiple transcripts of interviews](https://docs.google.com/document/d/1N3zA70dVd7mUC6rhOkqWdr_wK_FGWa-oLFEIokFwJ48/edit?usp=sharing)
 
@@ -44,5 +44,7 @@ The prototype folder contains the draft design of the prototype, the interaction
 [Cultural Investigation and Target Users](https://docs.google.com/document/d/1K6d9PJ0URvCQRSEmQNXWjKnOtptlkFPZ0eNwEXcTT-k/edit?usp=sharing)
 
 [Team16_DesignProposal.pdf](Team16_DesignProposal.pdf)
+
+
 
 
