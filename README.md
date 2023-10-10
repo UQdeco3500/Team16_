@@ -35,7 +35,7 @@ The prototype folder contains the draft design of the prototype, the interaction
 ---
 ## Stand Up 1
 
-[Connect to our non-functional prototype.pdf](Stand up 1/Connect to our non-functional prototype.pdf)
+[Connect to our non-functional prototype.pdf](folder/Connect to our non-functional prototype.pdf)
 
 [Multiple transcripts of interviews](https://docs.google.com/document/d/1N3zA70dVd7mUC6rhOkqWdr_wK_FGWa-oLFEIokFwJ48/edit?usp=sharing)
 
