@@ -42,3 +42,7 @@ The prototype folder contains the draft design of the prototype, the interaction
 [Observation and research](https://docs.google.com/document/d/1xF12FpgU-o9L14k1HFUpaocvJQsTHPs5eY9jzHiajdA/edit?usp=sharing)
 
 [Cultural Investigation and Target Users](https://docs.google.com/document/d/1K6d9PJ0URvCQRSEmQNXWjKnOtptlkFPZ0eNwEXcTT-k/edit?usp=sharing)
+
+[Team16_DesignProposal.pdf](Team16_DesignProposal.pdf)
+
+
