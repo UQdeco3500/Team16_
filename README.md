@@ -1,10 +1,13 @@
-# Team 16、
+# Team 16
 Welcome ^^
 
 Team members: Wenyu Wang, Xinyu Qiu, Kang Liang, Anqi Zhang, Yuqing Zhang(Team leader)
 
 ---
 # Design Proposal 
+## Slides
+[Team16_DesignProposal.pdf](Team16_DesignProposal.pdf)
+
 **Reflections based on feedback**
 
 1.Our team recognizes the need to define our problem domain more precisely, narrowing the scope to avoid overly broad descriptions. Furthermore, it's essential for us to specify design opportunities or concepts. For this, we are committed to drafting a more detailed description of our target audience.
@@ -35,18 +38,12 @@ The prototype folder contains the draft design of the prototype, the interaction
 ---
 ## Stand Up 1
 
-[Connect to our non-functional prototype.pdf](Stand up 1/Connect to our non-functional prototype.pdf)
+[Connect to our non-functional prototype](https://app.uizard.io/p/7863fefd)
 
 [Multiple transcripts of interviews](https://docs.google.com/document/d/1N3zA70dVd7mUC6rhOkqWdr_wK_FGWa-oLFEIokFwJ48/edit?usp=sharing)
 
 [Observation and research](https://docs.google.com/document/d/1xF12FpgU-o9L14k1HFUpaocvJQsTHPs5eY9jzHiajdA/edit?usp=sharing)
 
 [Cultural Investigation and Target Users](https://docs.google.com/document/d/1K6d9PJ0URvCQRSEmQNXWjKnOtptlkFPZ0eNwEXcTT-k/edit?usp=sharing)
-
-[Team16_DesignProposal.pdf](Team16_DesignProposal.pdf)
-
-[example.txt](folder/example.txt)
-
-
 
 
