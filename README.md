@@ -1,4 +1,4 @@
-# Team 16、
+# Team 16
 Welcome ^^
 
 Team members: Wenyu Wang, Xinyu Qiu, Kang Liang, Anqi Zhang, Yuqing Zhang(Team leader)
