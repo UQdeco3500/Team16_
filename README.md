@@ -4,7 +4,7 @@ Welcome ^^
 Team members: Wenyu Wang, Xinyu Qiu, Kang Liang, Anqi Zhang, Yuqing Zhang(Team leader)
 
 ---
-# Design Proposal 
+[[# Design Proposal 
 **Reflections based on feedback**
 
 1.Our team recognizes the need to define our problem domain more precisely, narrowing the scope to avoid overly broad descriptions. Furthermore, it's essential for us to specify design opportunities or concepts. For this, we are committed to drafting a more detailed description of our target audience.
@@ -26,7 +26,7 @@ Concerning the literature, we will organize a literature review workshop, ensuri
 
 Through these enhancements, we hope to lay a solid foundation for the success of the project, ensuring that the expectations and requirements of all stakeholders are met.
 
-[Team16_DesignProposal.pdf](Team16_DesignProposal.pdf)
+[Team16_DesignProposal.pdf](Team16_DesignProposal.pdf)](https://github.com/UQdeco3500/Team16_/wiki)](https://github.com/UQdeco3500/Team16_/wiki)
 
 ## Prototype
 
