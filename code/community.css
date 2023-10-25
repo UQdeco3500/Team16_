@@ -1,0 +1,219 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+
+.footer {
+  background-color: rgba(255, 255, 255, 0.50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  height: 45px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer a {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.home-icon {
+  position: relative;
+  top: -15px;
+  width: 45px;
+  height: 45px;
+}
+
+.footer img {
+  width: 45px;
+  height: 45px;
+
+}
+
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa83;
+}
+
+.header-left {
+  position: absolute;
+  left: 10px;
+}
+
+.header-center {
+  text-align: center;
+}
+
+.header-title {
+  margin: 0;
+}
+
+.back-icon img {
+  width: 30px;
+  height: 30px;
+}
+.entry {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.entry img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .post {
+    display: flex;
+    align-items: center;
+    align-items: flex-start; 
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccccccce;
+    border-radius: 20px 20px 20px 20px;
+    text-align: left; /* 添加 text-align 样式 */
+    max-width: 600px;
+  }
+  
+  .post-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: left; /* 添加 text-align 样式 */
+  }
+  
+  .post-content {
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    width: calc(100% - 60px);
+  }
+  
+  .post-name {
+    margin: 5;
+  }
+  
+  .post-date {
+    margin: 5;
+    color: #999;
+    font-size: 14px;
+  }
+  
+  .post-text {
+    margin: 10px;
+  }
+  
+  .post-icons {
+    float:left;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .post-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .post-icons i {
+    margin-left: 10px;
+    color: #999;
+    cursor: pointer;
+  }
+
+  .post-container {
+    background-color: #ffffff6e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px; /* 将四个角的弧度大小分别设置为 20px */
+    max-width: 600px;
+    margin: 20px auto;
+  }
+
+  .back-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .back-icon i {
+    font-size: 20px;
+    color: #333;
+  }
+
+  .post-icons a + a {
+    margin-left: 10px;
+  }
+
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .post-header-left {
+    flex: 1;
+  }
+
+  /* 转为手机尺寸 */
+  @media (max-width: 768px) {
+    .content {
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    .form-group textarea {
+      font-size: 14px;
+    }
+  
+    .button-group {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .button-group button {
+      margin: 10px 0;
+    }
+  }
+
+
+  .post-content {
+    text-align: left;
+    /* 其他样式 */
+}
+
+#delete-button {
+  margin-top: 10px;
+  background-color: #3eb8ffdc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  width:90px;
+  float: right;
+}
+
+#delete-button:hover {
+  background-color: #4aaeffbb;
+}
