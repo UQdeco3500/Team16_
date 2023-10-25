@@ -1,0 +1,87 @@
+body {
+    background-color: #add8e6;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.header img {
+    width: auto;
+}
+
+.header-left,
+.header-center,
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.cat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.tomb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.newcat,
+.start-exercising,
+.back-new {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #78b7ff;
+    color: white;
+    font-size: 16px;
+}
+
+.newcat:hover,
+.start-exercising:hover,
+.back-new:hover {
+  background-color: #7caaff85;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    height: 45px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer a {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .home-icon {
+    position: relative;
+    top: -15px;
+    width: 45px;
+    height: 45px;
+  }
+  
+  .footer img {
+    width: 45px;
+    height: 45px;
+  
+  }

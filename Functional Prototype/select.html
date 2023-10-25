@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="select.css">
+
+</head>
+<body>
+    <div class="game-container">
+        <div class="catname">
+            <p class="game-text">Hey! A cute kitty here, it needs your love and care~</p>
+            <input type="text" placeholder="Name your cat" class="name-input">
+        </div>
+        <div class="selectcat">
+            <div class="image-container">
+                <img src="./image/back.png" alt="Left arrow" class="left-icon">
+                <img src="./image/cat1.png" alt="Chatbot avatar" class="avatar">
+                <img src="./image/right.png" alt="Right arrow" class="right-icon">
+            </div>
+            <button class="adopt-button">Adopt a cat</button>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    // 获取左右箭头和图片元素
+const leftArrow = document.querySelector('.left-icon');
+const rightArrow = document.querySelector('.right-icon');
+const image = document.querySelector('.avatar');
+
+// 定义图片数组和当前图片索引
+const images = ['./image/cat1.png', './image/cat2.png', './image/cat3.png'];
+let currentIndex = 0;
+
+// 监听左箭头点击事件
+leftArrow.addEventListener('click', function() {
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  image.src = images[currentIndex];
+});
+
+// 监听右箭头点击事件
+rightArrow.addEventListener('click', function() {
+  currentIndex = (currentIndex + 1) % images.length;
+  image.src = images[currentIndex];
+});
+
+const adoptButton = document.querySelector('.adopt-button');
+
+adoptButton.addEventListener('click', function() {
+  location.href = 'home.html';
+});
+</script>

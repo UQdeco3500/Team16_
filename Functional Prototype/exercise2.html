@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>exercise2</title>
+    <link rel="stylesheet" href="./css/exercise.css">
+    <link rel="stylesheet" href="post.css">
+    <style>
+        #image-container {
+        margin-top: 20px;
+        }
+        .wrapper {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 2rem;
+          font-weight: bold;
+          margin-bottom: 20px;
+        }
+        .wrapper span {
+          margin: 0 0.5rem;
+          margin-bottom: 200px;
+        }
+        .cat {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-top: 1rem;
+        }
+        #part2 {
+        display: none; /* 第二个部分默认隐藏 */
+        /* 第二个部分的样式 */
+        }
+      </style>
+  </head>
+  <body>
+    <div id="part1">
+      <div id="history1">
+        <img id="toggle-button" src="./image/history.png" alt="history">
+      </div>
+
+      <div class="cat">
+        <img src="./image/cat4.png" alt="cat4">
+      </div>
+      <div id="image-container"></div>
+      <div class="wrapper">
+        <span id="minutes"></span>
+        <span>:</span>
+        <span id="seconds"></span>
+      </div>
+      <div class="footer">
+        <a href="ranklist.html"><img src="./image/ranklist.png" alt="Rank List icon"></a>
+        <a href="exercise.html"><img src="./image/exercise.png" alt="Exercise icon"></a>
+        <a href="home.html" class="home-icon"><img src="./image/home.png" alt="Home icon"></a>
+        <a href="community.html"><img src="./image/social.png" alt="Social icon"></a>
+        <a href="profile.html"><img src="./image/profile.png" alt="Profile icon"></a>
+      </div>
+      <script>
+        let deadline = new Date();
+        deadline.setSeconds(deadline.getSeconds() + 5); // 设置截止日期为当前时间加上5秒钟
+        let minutes = document.getElementById("minutes");
+        let seconds = document.getElementById("seconds");
+        let imageContainer = document.getElementById("image-container");
+        let images = ["./image/catbowlfish.png"]; // 图片数组
+    
+        function updateCountdown() {
+          let now = new Date();
+          let timeLeft = deadline - now;
+    
+          if (timeLeft < 0) {
+            clearInterval(timer);
+            minutes.innerHTML = "00";
+            seconds.innerHTML = "00";
+            addImage();
+            deadline = new Date();
+            deadline.setSeconds(deadline.getSeconds() + 5); // 设置截止日期为当前时间加上5秒钟
+            minutes.innerHTML = "00"; // 重置计时器的显示
+            seconds.innerHTML = "05";
+            timer = setInterval(updateCountdown, 1000);
+            return;
+          }
+    
+          let minutesLeft = Math.floor((timeLeft / (1000 * 60)) % 60);
+          let secondsLeft = Math.floor((timeLeft / 1000) % 60);
+    
+          minutes.innerHTML = minutesLeft < 10 ? "0" + minutesLeft : minutesLeft;
+          seconds.innerHTML = secondsLeft < 10 ? "0" + secondsLeft : secondsLeft;
+        }
+    
+    
+    
+        let timer = setInterval(updateCountdown, 1000);
+    
+        function addImage() {
+        let imageCount = localStorage.getItem("imageCount") || 0; // 获取图片数量，如果没有则默认为0
+        let image = document.createElement("img");
+        let randomIndex = Math.floor(Math.random() * images.length); // 随机数
+        image.src = images[randomIndex];
+        imageContainer.appendChild(image);
+        imageCount++; // 增加图片数量
+        localStorage.setItem("imageCount", imageCount); // 存储图片数量
+        }
+    
+      </script>
+    </div>
+    <div id="part2">
+        <div class="header">
+            <div class="header-left">
+                <div class="back-icon">
+                    <a><img id="toggle-button" src="./image/back1.png" alt="Back icon"></a>
+                </div>
+            </div>
+            <div class="header-center">
+                <h1 class="header-title">Weekly record</h1>
+            </div>
+        </div>
+        <div class="content">
+            <p>
+                Pet name: MiMi<br>
+                The cat has been alive for 120 days.
+            </p>
+            <div class="cat">
+                <img src="./image/cat4.png" alt="cat4">
+            </div>
+            <p>You have got <span id="image-count"></span> <img id="catbowlfish" src="./image/catbowlfish.png" style="vertical-align: middle;"></p>
+        </div>
+        <div class="weeklyrecord">
+          <div class="date-header">
+            <img src="./image/back.png" alt="Left arrow" style="float: left;">
+            <h2 style="text-align: center;">2023/9/25 - 2023/10/25</h2>
+            <img src="./image/right.png" alt="Right arrow" style="float: right;">
+          </div>
+          <div class="cat food">
+            <p>
+              <img src="./image/catbowlfish.png" alt="catbowlfish"style="float: left;"><img src="./image/catbowlfish.png" alt="catbowlfish"style="float: left;"><img src="./image/catbowlfish.png" alt="catbowlfish"style="float: left;"><img src="./image/catbowlfish.png" alt="catbowlfish"style="float: left;"><img src="./image/catbowlfish.png" alt="catbowlfish"style="float: left;"><img src="./image/catbowlfish.png" alt="catbowlfish"style="float: left;"><img src="./image/catbowlfish.png" alt="catbowlfish"style="float: left;"><img src="./image/catbowlfish.png" alt="catbowlfish"style="float: left;"><img src="./image/catbowlfish.png" alt="catbowlfish"style="float: left;"><img src="./image/catbowlfish.png" alt="catbowlfish"style="float: left;">
+            </p>
+          </div>
+        </div>
+            
+
+        <div class="footer">
+                <a href="ranklist.html"><img src="./image/ranklist.png" alt="Rank List icon"></a>
+                <a href="exercise.html"><img src="./image/exercise.png" alt="Exercise icon"></a>
+                <a href="home.html" class="home-icon"><img src="./image/home.png" alt="Home icon"></a>
+                <a href="social.html"><img src="./image/social.png" alt="Social icon"></a>
+                <a href="profile.html"><img src="./image/profile.png" alt="Profile icon"></a>
+        </div>
+    </div>
+    <script>
+      // JavaScript代码
+      let part1 = document.getElementById("part1");
+      let part2 = document.getElementById("part2");
+      let toggleButton = document.getElementById("toggle-button");
+      toggleButton.addEventListener("click", function() {
+        if (part1.style.display === "none") {
+          part1.style.display = "block";
+          part2.style.display = "none";
+        } else {
+          part1.style.display = "none";
+          part2.style.display = "block";
+        }
+      });
+        let imageCount = localStorage.getItem("imageCount") || 0; // 获取图片数量，如果没有则默认为0
+        let imageCountElement = document.getElementById("image-count");
+        imageCountElement.innerHTML = imageCount;
+    </script>
+  </body>
+</html>
