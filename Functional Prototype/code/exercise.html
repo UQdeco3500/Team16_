@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="exercise.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+          <div class="back-icon">
+            <a href="community.html"><img src="./image/back.png" alt="Back icon"></a>
+          </div>
+        </div>
+        <div class="header-center">
+          <h1 class="header-title">Exercise</h1>
+        </div>
+    </div>
+    <div class="content">
+        <div class="post-container">
+            <div class="post-header">
+              <div class="post-header-left"></div>
+              <div class="post-header-right">
+              </div>
+            </div>
+
+
+            <form id="dataInput" action="" @submit.prevent="sendData">
+              <div id="title">
+                Find  a  Gym !
+              </div>
+              <input id="lat" type="text" v-model="lat" placeholder="Lat">
+  
+              <input id="lng" type="text" v-model="lng" placeholder="Lng">
+  
+              <input id="range" type="text" v-model="range" placeholder="Range(km)">
+  
+              <select id="select" v-model="activity">
+                  <option value='' disabled selected style='display:none;'>Select Actiivity</option>
+                  <option>Fitness</option>
+                  <option>Basketball</option>
+                  <option>Golf</option>
+                  <option>Skate</option>
+                  <option>Climbing</option>
+                  <option>Bikeway</option>
+                  <option>Music play</option>
+                  <option>Picnic</option>
+              </select>
+              <input id="button" type="submit" value="Start">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14160.90321945023!2d153.01113228715818!3d-27.4622287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b9159f64dfcbf7d%3A0x5cb3ba28a3c0c0b2!2sSnap%20Fitness%2024%2F7%20Spring%20Hill!5e0!3m2!1sen!2sau!4v1697625673816!5m2!1sen!2sau" width="460" height="600" 
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <a href="place.html">
+            </a>
+          </form>
+  
+
+        <div class="post">
+              <img src="./image/ropeskipping.png" width="50%" height="50%" alt="Avatar" class="post-avatar">
+              <div class="post-content">
+                <br><h2 class="center-title">Rope Skipping</h2>
+                <p class="post-text">Cardiovasaular Endurance. Skipping rope elevates <br>your heart rate, enhancing cardiovascular health and <br>endurance. Regular sessions improve your heart's <br>eficiency and overall stamina.</p>
+                <div class="post-icons">
+
+                  <a href="place.html"><img src="./image/right.png" alt=""></a>
+
+                </div>
+            </div>
+            </div>
+            <div class="post">
+                <img src="./image/running.png" alt="Avatar" class="post-avatar">
+                <div class="post-content">
+                  <h2 class="post-name">Running</h2>
+                  <p class="post-text">Running primarily engages the lower body musdes, <br>incuding quadriceps, hamstrings, calves, and glutes. It's an excellent cardiovascular exercise that strengthens the heart and improves overall endurance. Running also engages the core muscles for stability and balance.</p>
+                  <div class="post-icons">
+                    <a href="Running.html"><img src="./image/right.png" alt=""></a>
+                  </div>
+                </div>
+            </div>
+            <div class="post">
+                <img src="./image/barbellcurls.png" alt="Avatar" class="post-avatar">
+                <div class="post-content">
+                  <h2 class="post-name">Barbell Curls</h2>
+                  <p class="post-text">Barbell curls specifically target the bicep muscles, located on the front of the upper arm. This exercise helps in building bicep muscle mass and strength. It also engages the forearm muscles to a certain extent.</p>
+                  <div class="post-icons">
+                    <a href="Barbell Curls.html"><img src="./image/right.png" alt=" "></a>
+                  </div>
+                </div>
+            </div>
+            <div class="post">
+                <img src="./image/barbellshoulderpush.png" alt="Avatar" class="post-avatar">
+                <div class="post-content">
+                  <h2 class="post-name">Barbell shoulder push</h2>
+                  <p class="post-text">The barbell shoulder push, or shoulder press, primarily targets the deltoid muscles of the shoulders. It also engages the triceps as secondary musces. Additionally, this exercise activates the upper back muscles and the core for stability during the movement.</p>
+                  <div class="post-icons">
+                    <a href="Barbell shoulder push.html"><img src="./image/right.png" alt=" "></a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="ranklist.html"><img src="./image/ranklist.png" alt="Rank List icon"></a>
+        <a href="exercise.html"><img src="./image/exercise.png" alt="Exercise icon"></a>
+        <a href="home.html" class="home-icon"><img src="./image/home.png" alt="Home icon"></a>
+        <a href="social.html"><img src="./image/social.png" alt="Social icon"></a>
+        <a href="profile.html"><img src="./image/profile.png" alt="Profile icon"></a>
+    </div>
+      
+</body>
+</html>
